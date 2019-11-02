@@ -28,3 +28,4 @@ Follow the [project board](https://github.com/AndroidDevsOrg/NewsFlash/projects)
 - Navigation component
 - Retrofit
 - Work Manager
+- Glide
