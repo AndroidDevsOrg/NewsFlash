@@ -2,7 +2,7 @@
 
 NewsFlash is a news application written in Kotlin that focuses on best practices and material design created by team.
 
-The API used in making this app is the [News API](https://newsapi.org/)
+The API used in making this app is the [News API](https://newsapi.org/), get your API and add it to `properties.gradle` file to build the project.
 
 The application must implement Google's new single activity, rest fragment approach to navigate through fragments. 
 
@@ -10,10 +10,12 @@ The application must implement Google's new single activity, rest fragment appro
 
 Follow the [project board](https://github.com/AndroidDevsOrg/NewsFlash/projects) for detailed task.
 
+# Contributors
+[![](https://sourcerer.io/fame/imabhishekkumar/AndroidDevsOrg/NewsFlash/images/0)](https://sourcerer.io/fame/imabhishekkumar/AndroidDevsOrg/NewsFlash/links/0)[![](https://sourcerer.io/fame/imabhishekkumar/AndroidDevsOrg/NewsFlash/images/1)](https://sourcerer.io/fame/imabhishekkumar/AndroidDevsOrg/NewsFlash/links/1)[![](https://sourcerer.io/fame/imabhishekkumar/AndroidDevsOrg/NewsFlash/images/2)](https://sourcerer.io/fame/imabhishekkumar/AndroidDevsOrg/NewsFlash/links/2)[![](https://sourcerer.io/fame/imabhishekkumar/AndroidDevsOrg/NewsFlash/images/3)](https://sourcerer.io/fame/imabhishekkumar/AndroidDevsOrg/NewsFlash/links/3)[![](https://sourcerer.io/fame/imabhishekkumar/AndroidDevsOrg/NewsFlash/images/4)](https://sourcerer.io/fame/imabhishekkumar/AndroidDevsOrg/NewsFlash/links/4)[![](https://sourcerer.io/fame/imabhishekkumar/AndroidDevsOrg/NewsFlash/images/5)](https://sourcerer.io/fame/imabhishekkumar/AndroidDevsOrg/NewsFlash/links/5)[![](https://sourcerer.io/fame/imabhishekkumar/AndroidDevsOrg/NewsFlash/images/6)](https://sourcerer.io/fame/imabhishekkumar/AndroidDevsOrg/NewsFlash/links/6)[![](https://sourcerer.io/fame/imabhishekkumar/AndroidDevsOrg/NewsFlash/images/7)](https://sourcerer.io/fame/imabhishekkumar/AndroidDevsOrg/NewsFlash/links/7)
+
 # Modules
 
 - Must use MVVM architecture
-- Google Sign In
 - Home Feed containing Recent News showing headline and thumbnail
 - Bookmarked news articles
 - Profile
@@ -29,3 +31,4 @@ Follow the [project board](https://github.com/AndroidDevsOrg/NewsFlash/projects)
 - Retrofit
 - Work Manager
 - Glide
+- Pagination
