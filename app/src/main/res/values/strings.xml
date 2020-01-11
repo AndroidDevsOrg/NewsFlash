@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">News Flash</string>
+    <string name="unknown_value">Unknown</string>
 </resources>

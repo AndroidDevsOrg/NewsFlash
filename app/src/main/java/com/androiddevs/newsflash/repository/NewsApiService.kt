@@ -1,5 +1,7 @@
 package com.androiddevs.newsflash.repository
 
+
+import com.androiddevs.newsflash.BuildConfig
 import com.androiddevs.newsflash.data.NewsResult
 import com.androiddevs.newsflash.data.NewsSources
 import io.reactivex.Observable
@@ -60,7 +62,7 @@ interface NewsApiService {
                         val original = chain.request()
 
                         val request = original.newBuilder()
-                            .addHeader("X-Api-Key", "PUT YOUR OWN API KEY HERE")
+                            .addHeader("X-Api-Key", BuildConfig.API_KEY)
                             .method(original.method, original.body)
                             .build()
 
