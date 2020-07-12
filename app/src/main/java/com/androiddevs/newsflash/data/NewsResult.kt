@@ -2,8 +2,7 @@ package com.androiddevs.newsflash.data
 
 import com.google.gson.annotations.SerializedName
 
-object NewsResult
-{
+object NewsResult {
 
     data class News(
         @SerializedName("status")
@@ -12,8 +11,7 @@ object NewsResult
         val totalResults: Int,
         @SerializedName("articles")
         val articles: List<Article>
-    )
-    {
+    ) {
         data class Article(
             @SerializedName("source")
             val source: Source,
@@ -31,8 +29,7 @@ object NewsResult
             val publishedAt: String,
             @SerializedName("content")
             val content: String
-        )
-        {
+        ) {
             data class Source(
                 @SerializedName("id")
                 val id: String,

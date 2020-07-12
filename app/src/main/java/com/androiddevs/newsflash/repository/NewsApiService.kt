@@ -37,16 +37,17 @@ interface NewsApiService {
     @GET("everything")
     fun getEverything(
         @Query("q") keyword: String,
-        @Query("qInTitle") keyWordInArtcile : String,
+        @Query("qInTitle") keyWordInArtcile: String,
         @Query("sources") sources: String,
         @Query("domains") domain: String,
         @Query("excludeDomains") excludeDomains: String,
         @Query("from") from: String,
         @Query("to") to: String,
-        @Query("language") language:String,
-        @Query("sortBy") sortBy:String,
+        @Query("language") language: String,
+        @Query("sortBy") sortBy: String,
         @Query("pageSize") pageSize: Int,
-        @Query("page") page: Int):Observable<NewsResult.News>
+        @Query("page") page: Int
+    ): Observable<NewsResult.News>
 
 
     companion object {
@@ -81,12 +82,9 @@ interface NewsApiService {
                 .client(okHttpClient)
                 .build()
 
-
             return retrofit.create(NewsApiService::class.java)
-
         }
 
     }
-
 
 }
