@@ -2,8 +2,7 @@ package com.androiddevs.newsflash.data
 
 import com.google.gson.annotations.SerializedName
 
-object NewsError
-{
+object NewsError {
     data class Error(
         @SerializedName("status")
         val status: String,
