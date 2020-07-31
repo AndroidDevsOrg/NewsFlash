@@ -9,7 +9,4 @@ import com.androiddevs.newsflash.R
 
 class HomeFragment : Fragment(R.layout.fragment_home) {
 
-    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        super.onViewCreated(view, savedInstanceState)
-    }
 }
