@@ -10,8 +10,8 @@ import com.androiddevs.newsflash.data.NewsResult
 import com.androiddevs.newsflash.databinding.HomeNewsRowBinding
 
 
-class HomeNewsRecyelerAdapter(private var newsList: ArrayList<NewsResult.News.Article>) :
-    RecyclerView.Adapter<HomeNewsRecyelerAdapter.ViewHolder>() {
+class HomeNewsRecyclerAdapter(private var newsList: ArrayList<NewsResult.News.Article>) :
+    RecyclerView.Adapter<HomeNewsRecyclerAdapter.ViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val layoutInflater = LayoutInflater.from(parent.context)

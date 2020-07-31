@@ -1,15 +1,9 @@
 package com.androiddevs.newsflash.data
 
-import com.google.gson.annotations.SerializedName
-
-object NewsError
-{
+object NewsError {
     data class Error(
-        @SerializedName("status")
-        val status: String,
-        @SerializedName("code")
-        val code: String,
-        @SerializedName("message")
-        val message: String
+        val status: String? = null,
+        val code: String? = null,
+        val message: String? = null
     )
 }

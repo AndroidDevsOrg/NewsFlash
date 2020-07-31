@@ -1,43 +1,28 @@
 package com.androiddevs.newsflash.data
 
-import com.google.gson.annotations.SerializedName
-
 object NewsResult
 {
 
     data class News(
-        @SerializedName("status")
-        val status: String,
-        @SerializedName("totalResults")
-        val totalResults: Int,
-        @SerializedName("articles")
-        val articles: List<Article>
+        val status: String? = null,
+        val totalResults: Int = 0,
+        val articles: List<Article> = listOf()
     )
     {
         data class Article(
-            @SerializedName("source")
-            val source: Source,
-            @SerializedName("author")
-            val author: String,
-            @SerializedName("title")
-            val title: String,
-            @SerializedName("description")
-            val description: String,
-            @SerializedName("url")
-            val url: String,
-            @SerializedName("urlToImage")
-            val urlToImage: String,
-            @SerializedName("publishedAt")
-            val publishedAt: String,
-            @SerializedName("content")
-            val content: String
+            val source: Source? = null,
+            val author: String? = null,
+            val title: String? = null,
+            val description: String? = null,
+            val url: String? = null,
+            val urlToImage: String? = null,
+            val publishedAt: String? = null,
+            val content: String? = null
         )
         {
             data class Source(
-                @SerializedName("id")
-                val id: String,
-                @SerializedName("name")
-                val name: String
+                val id: String? = null,
+                val name: String? = null
             )
         }
     }
