@@ -39,4 +39,8 @@ interface NewsApiService {
         @Query("page") page: Int
     ): LiveData<ApiResponse<NewsResult.News>>
 
+    @GET("top-headlines")
+    fun getBusinessNews(
+
+    )
 }
