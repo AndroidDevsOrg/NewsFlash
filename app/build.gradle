@@ -6,12 +6,12 @@ apply plugin: 'kotlin-android-extensions'
 
 apply plugin: "kotlin-kapt"
 android {
-    compileSdkVersion 29
-    buildToolsVersion "29.0.2"
+    compileSdkVersion 30
+    buildToolsVersion "29.0.3"
     defaultConfig {
         applicationId "com.androiddevs.newsflash"
         minSdkVersion 21
-        targetSdkVersion 29
+        targetSdkVersion 30
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
@@ -38,6 +38,7 @@ dependencies {
     def rxAndroidVersion = "2.1.1"
     def okHttpVersion = "4.2.2"
     def navVersion = "2.1.0"
+    def lifecycle_version = "2.2.0"
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     implementation 'androidx.appcompat:appcompat:1.1.0'
@@ -75,4 +76,9 @@ dependencies {
     implementation 'com.google.dagger:dagger-android-support:2.23.2'
     kapt 'com.google.dagger:dagger-android-processor:2.23.2'
     kapt 'com.google.dagger:dagger-compiler:2.28'
+
+    //VIEW-MODEL AND LIVE DATA
+    implementation "androidx.lifecycle:lifecycle-viewmodel:$lifecycle_version"
+    implementation "androidx.lifecycle:lifecycle-livedata:$lifecycle_version"
+    kapt "androidx.lifecycle:lifecycle-compiler:$lifecycle_version"
 }

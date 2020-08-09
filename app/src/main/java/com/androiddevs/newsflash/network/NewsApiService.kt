@@ -1,10 +1,10 @@
 package com.androiddevs.newsflash.network
 
-
 import androidx.lifecycle.LiveData
 import com.androiddevs.newsflash.data.NewsResult
 import com.androiddevs.newsflash.data.NewsSources
 import retrofit2.http.GET
+import retrofit2.http.Path
 import retrofit2.http.Query
 
 interface NewsApiService {
@@ -16,12 +16,13 @@ interface NewsApiService {
 
     @GET("top-headlines")
     fun getTopHeadlines(
-        @Query("country") country: String,
-        @Query("category") category: String,
-        @Query("sources") sources: String,
-        @Query("q") keyword: String,
+        @Query("country") country: String?,
+        @Query("category") category: String?,
+        @Query("sources") sources: String?,
+        @Query("q") keyword: String?,
         @Query("pageSize") pageSize: Int,
-        @Query("page") page: Int
+        @Query("page") page: Int,
+        @Query("apiKey") apiKey: String?
     ): LiveData<ApiResponse<NewsResult.News>>
 
     @GET("everything")
@@ -39,8 +40,4 @@ interface NewsApiService {
         @Query("page") page: Int
     ): LiveData<ApiResponse<NewsResult.News>>
 
-    @GET("top-headlines")
-    fun getBusinessNews(
-
-    )
 }
