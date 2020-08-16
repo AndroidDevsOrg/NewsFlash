@@ -1,7 +1,7 @@
 package com.androiddevs.newsflash.di.modules
 
-import com.androiddevs.newsflash.data.network.APILayer
-import com.androiddevs.newsflash.data.network.contract.IAPILayer
+import com.androiddevs.newsflash.data.network.NewsAPILayerImpl
+import com.androiddevs.newsflash.data.network.contract.NewsAPILayer
 import dagger.Binds
 import dagger.Module
 import dagger.Provides
@@ -18,7 +18,7 @@ abstract class APIBinder {
     }
 
     @Binds
-    abstract fun bindsAPILayer(apiLayer: APILayer): IAPILayer
+    abstract fun bindsAPILayer(newsApiLayerImpl: NewsAPILayerImpl): NewsAPILayer
 
     @Module
     internal object APIModule {

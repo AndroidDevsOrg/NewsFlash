@@ -3,8 +3,6 @@ package com.androiddevs.newsflash.di.modules
 import android.app.Application
 import android.content.Context
 import android.content.SharedPreferences
-import com.androiddevs.newsflash.utils.AppDispatchers
-import com.androiddevs.newsflash.utils.IDispatchers
 import dagger.Module
 import dagger.Provides
 import javax.inject.Singleton

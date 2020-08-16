@@ -1,9 +1,13 @@
 package com.androiddevs.newsflash.utils
 
 import kotlinx.coroutines.CoroutineDispatcher
-import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.ExperimentalCoroutinesApi
+import kotlinx.coroutines.test.TestCoroutineDispatcher
+import javax.inject.Inject
 
-class TestDispatcher : IDispatchers {
-    override val mainDispatchers: CoroutineDispatcher = Dispatchers.Default
-    override val ioDispatcher: CoroutineDispatcher = Dispatchers.Default
+
+@ExperimentalCoroutinesApi
+class TestDispatcher @Inject constructor() : DispatcherProvider {
+    override val mainDispatchers: CoroutineDispatcher = TestCoroutineDispatcher()
+    override val ioDispatcher: CoroutineDispatcher = TestCoroutineDispatcher()
 }

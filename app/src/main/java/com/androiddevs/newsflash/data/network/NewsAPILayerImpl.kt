@@ -3,14 +3,14 @@ package com.androiddevs.newsflash.data.network
 import com.androiddevs.newsflash.constants.API_KEY
 import com.androiddevs.newsflash.data.network.apiwrapper.Response
 import com.androiddevs.newsflash.data.network.apiwrapper.handleResponse
-import com.androiddevs.newsflash.data.network.contract.IAPILayer
+import com.androiddevs.newsflash.data.network.contract.NewsAPILayer
 import com.androiddevs.newsflash.data.network.models.NewsResult
 import com.androiddevs.newsflash.data.network.models.TopHeadlinesRequest
 import retrofit2.Retrofit
 import javax.inject.Inject
 
-class APILayer @Inject constructor(retrofit: Retrofit) :
-    IAPILayer {
+class NewsAPILayerImpl @Inject constructor(retrofit: Retrofit) :
+    NewsAPILayer {
 
     private val newsApiService by lazy {
         retrofit.create(NewsApiService::class.java)
