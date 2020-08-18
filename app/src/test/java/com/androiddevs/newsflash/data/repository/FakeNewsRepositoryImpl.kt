@@ -5,12 +5,13 @@ import com.androiddevs.newsflash.data.network.apiwrapper.Status
 import com.androiddevs.newsflash.data.network.models.NewsResult
 import com.androiddevs.newsflash.data.network.models.TopHeadlinesRequest
 import com.androiddevs.newsflash.data.repository.contract.NewsRepository
+import com.androiddevs.newsflash.utils.TestableAPIStatus
 import javax.inject.Inject
 
-class FakeNewsRepositoryImpl @Inject constructor() : NewsRepository {
+class FakeNewsRepositoryImpl @Inject constructor() : NewsRepository, TestableAPIStatus {
 
-    var apiStatus = Status.SUCCESS
-    val successResponsePath = "news_top_headline_response/success_response.json"
+    override var apiStatus = Status.SUCCESS
+
 
     override suspend fun getBusinessNews(topHeadlinesRequest: TopHeadlinesRequest): Response<NewsResult.News> {
         return if (apiStatus == Status.SUCCESS) {
@@ -22,8 +23,6 @@ class FakeNewsRepositoryImpl @Inject constructor() : NewsRepository {
 
 
     fun getSuccessResponse(): Response<NewsResult.News> {
-//        val response =
-//            loadModelFromResource<NewsResult.News>(ClassLoader.getSystemClassLoader(), successResponsePath)
         return Response.success(NewsResult.News())
     }
 
