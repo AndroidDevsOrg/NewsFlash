@@ -5,9 +5,9 @@ apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 
 apply plugin: "kotlin-kapt"
+
 android {
     compileSdkVersion 30
-    buildToolsVersion "29.0.3"
     defaultConfig {
         applicationId "com.androiddevs.newsflash"
         minSdkVersion 21
@@ -31,8 +31,13 @@ android {
         sourceCompatibility 1.8
         targetCompatibility 1.8
     }
-    dataBinding {
-        enabled = true
+    buildFeatures {
+        dataBinding = true
+    }
+    configurations.all {
+        resolutionStrategy {
+            exclude group: "org.jetbrains.kotlinx", module: "kotlinx-coroutines-debug"
+        }
     }
     sourceSets {
         debug {
