@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">News Flash</string>
     <string name="unknown_value">Unknown</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="or">or</string>
 </resources>
