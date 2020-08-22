@@ -5,9 +5,9 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.androiddevs.newsflash.data.network.apiwrapper.Status
-import com.androiddevs.newsflash.data.network.models.NewsResult
 import com.androiddevs.newsflash.data.network.models.TopHeadlinesRequest
 import com.androiddevs.newsflash.data.repository.contract.NewsRepository
+import com.androiddevs.newsflash.data.repository.models.NewsArticle
 import com.androiddevs.newsflash.utils.DispatcherProvider
 import kotlinx.coroutines.launch
 
@@ -30,7 +30,7 @@ class HomeFragmentViewModel constructor(
             val response = newsRepository.getBusinessNews(headlinesRequest)
             if (response.status == Status.SUCCESS) {
                 response.data?.let {
-                    screenStates.postValue(HomeScreenStates.TopHeadlinesReceived(it.articles))
+                    screenStates.postValue(HomeScreenStates.TopHeadlinesReceived(it))
                 } ?: kotlin.run {
                     screenStates.postValue(HomeScreenStates.ErrorState)
                 }
@@ -45,6 +45,6 @@ class HomeFragmentViewModel constructor(
 sealed class HomeScreenStates {
     object Loading : HomeScreenStates()
     object ErrorState : HomeScreenStates()
-    data class TopHeadlinesReceived(val articleList: List<NewsResult.News.Article>) :
+    data class TopHeadlinesReceived(val articleList: List<NewsArticle>) :
         HomeScreenStates()
 }

@@ -1,7 +1,7 @@
 package com.androiddevs.newsflash.di.modules
 
-import com.androiddevs.newsflash.data.network.NewsAPILayerImpl
-import com.androiddevs.newsflash.data.repository.FakeNewsRepositoryImpl
+import com.androiddevs.newsflash.data.repository.fakes.FakeNewsAPILayerImpl
+import com.androiddevs.newsflash.ui.viewModel.fakes.FakeNewsRepositoryImpl
 import com.androiddevs.newsflash.utils.DispatcherProvider
 import com.androiddevs.newsflash.utils.TestDispatcher
 import dagger.Binds
@@ -22,7 +22,7 @@ abstract class FakeAppBinders {
         fun provideFakeRepository(): FakeNewsRepositoryImpl = FakeNewsRepositoryImpl()
 
         @Provides
-        fun provideFakeApiLayer(): NewsAPILayerImpl = NewsAPILayerImpl()
+        fun provideFakeApiLayer(): FakeNewsAPILayerImpl = FakeNewsAPILayerImpl()
     }
 
 }

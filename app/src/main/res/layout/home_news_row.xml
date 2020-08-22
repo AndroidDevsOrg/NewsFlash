@@ -4,7 +4,7 @@
 <data>
     <variable
         name="news"
-        type="com.androiddevs.newsflash.data.network.models.NewsResult" />
+        type="com.androiddevs.newsflash.data.network.models.News" />
 </data>
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"

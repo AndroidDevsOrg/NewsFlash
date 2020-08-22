@@ -6,11 +6,11 @@ import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import androidx.recyclerview.widget.RecyclerView
 import com.androiddevs.newsflash.R
-import com.androiddevs.newsflash.data.network.models.NewsResult
+import com.androiddevs.newsflash.data.network.models.News
 import com.androiddevs.newsflash.databinding.HomeNewsRowBinding
 
 
-class HomeNewsRecyclerAdapter(private var newsList: ArrayList<NewsResult.News.Article>) :
+class HomeNewsRecyclerAdapter(private var newsList: ArrayList<News.Article>) :
     RecyclerView.Adapter<HomeNewsRecyclerAdapter.ViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
@@ -33,10 +33,11 @@ class HomeNewsRecyclerAdapter(private var newsList: ArrayList<NewsResult.News.Ar
         val newsArticle = newsList[position]
         holder.bind(newsArticle)
     }
+
     class ViewHolder(val binding: HomeNewsRowBinding) : RecyclerView.ViewHolder(binding.root) {
 
-        fun bind(obj: NewsResult.News.Article){
-            binding.setVariable(com.androiddevs.newsflash.BR.news,obj)
+        fun bind(obj: News.Article) {
+            binding.setVariable(com.androiddevs.newsflash.BR.news, obj)
         }
 
     }

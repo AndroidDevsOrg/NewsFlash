@@ -4,7 +4,7 @@ import androidx.arch.core.executor.testing.InstantTaskExecutorRule
 import androidx.lifecycle.Observer
 import com.androiddevs.newsflash.data.network.apiwrapper.Status
 import com.androiddevs.newsflash.data.network.models.TopHeadlinesRequest
-import com.androiddevs.newsflash.data.repository.FakeNewsRepositoryImpl
+import com.androiddevs.newsflash.ui.viewModel.fakes.FakeNewsRepositoryImpl
 import com.androiddevs.newsflash.di.components.DaggerFakeAppComponent
 import com.androiddevs.newsflash.utils.DispatcherProvider
 import kotlinx.coroutines.ExperimentalCoroutinesApi
