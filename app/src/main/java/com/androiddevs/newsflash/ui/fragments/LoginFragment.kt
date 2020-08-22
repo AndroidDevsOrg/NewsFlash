@@ -6,22 +6,24 @@ import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Toast
 import androidx.fragment.app.Fragment
+import androidx.lifecycle.ViewModelProvider
 import com.androiddevs.newsflash.R
 import com.androiddevs.newsflash.constants.RC_SIGN_IN
+import com.androiddevs.newsflash.ui.viewModel.LoginViewModel
+import com.androiddevs.newsflash.viewModelproviders.LoginViewModelProvider
 import com.google.android.gms.auth.api.signin.GoogleSignIn
 import com.google.android.gms.auth.api.signin.GoogleSignInClient
-import com.google.android.gms.auth.api.signin.GoogleSignInOptions
 import com.google.android.gms.common.api.ApiException
-import com.google.android.material.snackbar.Snackbar
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.GoogleAuthProvider
 import kotlinx.android.synthetic.main.fragment_login.*
 
-class LoginFragment: Fragment() {
+class LoginFragment : Fragment() {
 
     private var googleSignInClient: GoogleSignInClient? = null
+
+    private lateinit var loginViewModel: LoginViewModel
 
     private lateinit var auth: FirebaseAuth
 
@@ -44,6 +46,7 @@ class LoginFragment: Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        initializeViewModel()
         createGoogleSignInRequest()
         setClickListeners()
     }
@@ -55,13 +58,15 @@ class LoginFragment: Fragment() {
         }
     }
 
-    private fun createGoogleSignInRequest() {
-        val googleSignInOption = GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
-            .requestIdToken(getString(R.string.default_web_client_id))
-            .requestEmail()
-            .build()
+    private fun initializeViewModel() {
+        loginViewModel = ViewModelProvider(
+            this,
+            LoginViewModelProvider(requireActivity())
+        ).get(LoginViewModel::class.java)
+    }
 
-        googleSignInClient = activity?.let { GoogleSignIn.getClient(it,googleSignInOption) }
+    private fun createGoogleSignInRequest() {
+        googleSignInClient = loginViewModel.createGoogleSignInRequest()
     }
 
     private fun setClickListeners() {
@@ -93,14 +98,10 @@ class LoginFragment: Fragment() {
         auth.signInWithCredential(credential).addOnCompleteListener { task ->
             if (task.isSuccessful) {
                 //TODO: Navigate to homeScreen
-                Log.e(TAG,"Google Sign In SuccessFull")
-                Toast.makeText(context,"Logged in Successfully", Toast.LENGTH_LONG).show()
+                Log.e(TAG, "Google Sign In SuccessFull")
             } else {
-                Log.e(TAG,"Google Sign In failed")
-                Snackbar.make(rootLayout, "Google Authentication Failed.", Snackbar.LENGTH_SHORT).show()
+                Log.e(TAG, "Google Sign In failed")
             }
         }
     }
-
-
 }
