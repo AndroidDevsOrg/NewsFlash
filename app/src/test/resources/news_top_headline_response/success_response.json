@@ -1,0 +1,266 @@
+{
+  "status": "ok",
+  "totalResults": 38,
+  "articles": [
+    {
+      "source": {
+        "id": null,
+        "name": "New York Times"
+      },
+      "author": "Katie Glueck, Thomas Kaplan",
+      "title": "Trump vs. Biden Live Updates: 2020 Election and Post Office - The New York Times",
+      "description": "Many questions remain as the first virtual convention nears. The Postal Service’s inspector general is investigating complaints about mail delays. And disinformation about Kamala Harris has surged this week.",
+      "url": "https://www.nytimes.com/live/2020/08/15/us/biden-vs-trump-election",
+      "urlToImage": "https://static01.nyt.com/images/2020/08/15/multimedia/15election-briefing-convention-sub-2/merlin_175577160_70bbdc9f-99aa-4151-877e-744f2d3e1438-facebookJumbo.jpg",
+      "publishedAt": "2020-08-15T17:25:01Z",
+      "content": "LiveUpdated Aug. 15, 2020, 2:55 p.m. ET\r\nAug. 15, 2020, 2:55 p.m. ET\r\nMany questions remain as the first virtual convention nears. The Postal Services inspector general is investigating complaints ab… [+16888 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Artemis Moshtaghian, CNN",
+      "title": "Former Illinois Gov. James Thompson dead at 84 - CNN",
+      "description": "Former Illinois Gov. James R. Thompson died Friday night at the age of 84, CNN affiliate WLS reported.",
+      "url": "https://www.cnn.com/2020/08/15/politics/former-illinois-governor-james-thompson-dead/index.html",
+      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/200815120156-01-james-thompson il-governor-1988-super-tease.jpg",
+      "publishedAt": "2020-08-15T17:21:00Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "The Guardian"
+      },
+      "author": "Lois Beckett",
+      "title": "Pelosi vows to protect USPS and accuses Trump of ‘openly working to destroy’ it - The Guardian",
+      "description": "House speaker said president is actively trying to ‘sabotage’ agency’s ability to deliver mail-in ballots in time for election",
+      "url": "https://www.theguardian.com/business/2020/aug/15/nancy-pelosi-trump-usps-election-mail-in-ballots",
+      "urlToImage": "https://i.guim.co.uk/img/media/10c0c0f868f6c8e0436600ef6862f6a1f5da0757/0_126_4500_2700/master/4500.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=176596bed3da4ba49e47f4a336b8b7c4",
+      "publishedAt": "2020-08-15T16:48:00Z",
+      "content": "Top Democrat Nancy Pelosi has accused Donald Trump of openly working to destroy the post office, and said the US president is actively trying to sabotage the agencys ability to deliver Americans mail… [+4753 chars]"
+    },
+    {
+      "source": {
+        "id": "nbc-news",
+        "name": "NBC News"
+      },
+      "author": "Ariel Saramandi",
+      "title": "Mauritius residents join efforts to contain oil spill as grounded ship splits in two - NBC News",
+      "description": "The MV Wakashio ship which ran aground off Mauritius has broken into two, raising fears more oil will spill near the island. Residents are helping clean-up.",
+      "url": "https://www.nbcnews.com/news/world/mauritius-residents-join-efforts-contain-oil-spill-grounded-ship-splits-n1236868",
+      "urlToImage": "https://media2.s-nbcnews.com/j/newscms/2020_33/3404886/200815-mauritius-ship-break-jm-1129_1f2451984937d922adcc4495eda81ece.nbcnews-fp-1200-630.jpg",
+      "publishedAt": "2020-08-15T16:47:00Z",
+      "content": "FLOREAL, Mauritius As citizen-led rescue efforts continued, a ship that ran aground off the coast of Mauritius broke in two on Saturday, raising concerns that more oil would spill out near the coast … [+4815 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "ESPN"
+      },
+      "author": "Andrew Lopez, Adrian Wojnarowski",
+      "title": "New Orleans Pelicans dismiss head coach Alvin Gentry - ESPN",
+      "description": "The Pelicans have dismissed head coach Alvin Gentry following a disappointing run in the NBA's restart.",
+      "url": "https://www.espn.com/nba/story/_/id/29667535/sources-new-orleans-pelicans-dismiss-head-coach-alvin-gentry",
+      "urlToImage": "https://a.espncdn.com/combiner/i?img=%2Fphoto%2F2020%2F0815%2Fr731919_1296x729_16%2D9.jpg",
+      "publishedAt": "2020-08-15T16:29:18Z",
+      "content": "The New Orleans Pelicans dismissed coach Alvin Gentry, the team announced Saturday afternoon.\r\nAfter a disappointing performance in the NBA's Orlando restart, the franchise moved quickly on Gentry's … [+1776 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Mary Ilyushina, Tara John and Vasco Cotovio, CNN",
+      "title": "Belarus leader calls Putin to reaffirm mutual cooperation, later rejects foreign mediation offers - CNN",
+      "description": "Belarusian President Alexander Lukashenko on Saturday rejected foreign mediation offers to help stabilize the volatile situation in his country. But reached out to Russian President Vladimir Putin with a call, and both men expressed confidence that the situat…",
+      "url": "https://www.cnn.com/2020/08/15/europe/belarus-protests-putin-call-intl/index.html",
+      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/200730091946-file-lukashenko-putin-super-tease.jpg",
+      "publishedAt": "2020-08-15T16:26:00Z",
+      "content": "Minsk, Belarus (CNN)Belarusian President Alexander Lukashenko on Saturday rejected foreign mediation offers to help stabilize the volatile situation in his country. But reached out to Russian Preside… [+4203 chars]"
+    },
+    {
+      "source": {
+        "id": "fox-news",
+        "name": "Fox News"
+      },
+      "author": "Paulina Dedaj",
+      "title": "Bruins' Tuukka Rask opts out of NHL season, hours before Game 3 after calling playoffs 'dull' - Fox News",
+      "description": "Boston Bruins veteran goalie Tuukka Rask announced just hours before Saturday’s Game 3 against the Carolina Hurricanes that he would be opting out of the NHL’s return to Play to be with his family.",
+      "url": "https://www.foxnews.com/sports/bruins-tuukka-rask-opts-out-nhl-game-3-playoffs-dull",
+      "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2019/04/NHL-Tuuka-Rask.jpg",
+      "publishedAt": "2020-08-15T16:03:40Z",
+      "content": "Boston Bruins veteran goalie Tuukka Rask announced just hours before Saturday’s Game 3 against the Carolina Hurricanes that he would be opting out of the NHL’s return to Play to be with his family.\r\n… [+1915 chars]"
+    },
+    {
+      "source": {
+        "id": "fox-news",
+        "name": "Fox News"
+      },
+      "author": "Adam Shaw",
+      "title": "Iran fumes, warns of 'dangerous future' for UAE over historic US-brokered deal with Israel - Fox News",
+      "description": "Iran’s Revolutionary Guard warned of a “dangerous future” for the United Arab Emirates over a U.S.-brokered agreement that sees the UAE open up diplomatic relations with Israel.",
+      "url": "https://www.foxnews.com/politics/iran-fumes-warns-of-dangerous-future-for-uae-over-historic-us-brokered-deal-with-israel",
+      "urlToImage": "https://cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/d46a8c86-2b64-463e-a52a-799c3213c543/ffc7cdce-2599-4f8c-adba-d98061cd0061/1280x720/match/image.jpg",
+      "publishedAt": "2020-08-15T15:51:13Z",
+      "content": "Iran’s Revolutionary Guard warned of a “dangerous future” for the United Arab Emirates over a U.S.-brokered agreement that sees the UAE open up diplomatic relations with Israel.\r\nThe Iranian guard ca… [+2871 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Billboard"
+      },
+      "author": "Mitchell Peters",
+      "title": "Chrissy Teigen Opens Up About Being Pregnant During Breast Surgery: 'It's Quite a Story' - Billboard",
+      "description": "",
+      "url": "https://www.billboard.com/articles/news/9435031/chrissy-teigen-john-legend-pregnant-breast-surgery",
+      "urlToImage": "https://static.billboard.com/files/2020/03/john-legend-chrissy-teigen-feb-2020-b-billboard-1548-1584654205-1024x677.jpg",
+      "publishedAt": "2020-08-15T15:34:24Z",
+      "content": "Chrissy Teigen has \"quite a story\" to tell about her surprise pregnancy.\r\nOne day after revealing she and husband John Legend are expecting their third child, the 34-year-old model and author opened … [+2881 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "PEOPLE"
+      },
+      "author": "Maria Pasquini",
+      "title": "Nikki Bella Is Enjoying Spending Time with Newborn Son: 'I Have Never Cried So Many Happy Tears' - Yahoo Entertainment",
+      "description": "\"I have taken in every single second with our baby boy. And will continue to do so,\" Nikki Bella said",
+      "url": "https://people.com/parents/nikki-bella-spending-time-son-cried-happy-tears/",
+      "urlToImage": "https://imagesvc.meredithcorp.io/v3/mm/image?q=85&c=sc&poi=%5B513%2C386%5D&w=950&h=497&url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F20%2F2020%2F08%2F15%2Fnikkie-bella.jpg",
+      "publishedAt": "2020-08-15T15:30:00Z",
+      "content": "Nikki Bella is enjoying taking time off to spend with her newborn son.\r\nAs the mom of one faced off in the EA Sports UFC Virtual Fight Card showdown against twin sister Brie Bella — who welcomed her … [+2508 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "MMA Fighting"
+      },
+      "author": "Mike Heck",
+      "title": "Colby Covington leaning toward ‘Natty GOAT’ Daniel Cormier to defeat ‘great’ Stipe Miocic at UFC 252 - MMA Fighting",
+      "description": "Despite his typically brash persona, Colby Covington has a lot of respect for both competitors of Saturday night’s championship fight in Las Vegas.",
+      "url": "https://www.mmafighting.com/2020/8/15/21364816/colby-covington-leaning-toward-natty-goat-daniel-cormier-to-defeat-great-stipe-miocic-at-ufc-252",
+      "urlToImage": "https://cdn.vox-cdn.com/thumbor/Z6X6WYrnik9rwhUAf6ntMUIqbos=/0x0:2880x1508/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/19525945/138_Colby_Covington.jpg",
+      "publishedAt": "2020-08-15T15:00:00Z",
+      "content": "Despite his typically brash persona, Colby Covington has a lot of respect for both competitors of Saturday nights championship fight in Las Vegas.\r\nIn the main event of UFC 252, Stipe Miocic will def… [+3115 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Yahoo Entertainment"
+      },
+      "author": "Raechal Shewfelt",
+      "title": "Meghan Markle says returning to the U.S. after a decade away was 'just devastating' - Yahoo Entertainment",
+      "description": "The Duchess of Sussex had been in Canada filming before relocating to London with Prince Harry.",
+      "url": "https://www.yahoo.com/entertainment/meghan-markle-returning-united-states-devastating-145719193.html",
+      "urlToImage": "https://s.yimg.com/uu/api/res/1.2/2Pbfjshq0eszCkcVTfkkQA--~B/aD03MTQ7dz0xMDI0O3NtPTE7YXBwaWQ9eXRhY2h5b24-/https://media-mbst-pub-ue1.s3.amazonaws.com/creatr-uploaded-images/2020-08/175006a0-de72-11ea-9f93-48e27ec15c53",
+      "publishedAt": "2020-08-15T14:57:00Z",
+      "content": "As Meghan Markle returned to the United States in the spring, royal husband Prince Harry in tow, the country had shut down due to the coronavirus pandemic and protestors filled the streets to call ou… [+3185 chars]"
+    },
+    {
+      "source": {
+        "id": "the-verge",
+        "name": "The Verge"
+      },
+      "author": "Kim Lyons",
+      "title": "Mozilla and Google reportedly renew Firefox search agreement - The Verge",
+      "description": "Mozilla and Google have extended their arrangement to keep Google the default search engine within the Firefox browser until at least 2023, and are expected to formally announce the deal later this fall.",
+      "url": "https://www.theverge.com/2020/8/15/21370020/mozilla-google-firefox-search-engine-browser",
+      "urlToImage": "https://cdn.vox-cdn.com/thumbor/78RxNPEIrphXEabfHripYCBLLUA=/0x146:2040x1214/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/19704536/acastro_200207_3900_firefox_0001.0.jpg",
+      "publishedAt": "2020-08-15T14:52:59Z",
+      "content": "The deal will keep Google as the default search engine in the Firefox browser\r\nIllustration by Alex Castro / The Verge\r\nMozilla and Google have extended their arrangement to keep Google the default s… [+1257 chars]"
+    },
+    {
+      "source": {
+        "id": "cbs-news",
+        "name": "CBS News"
+      },
+      "author": "CBS News",
+      "title": "Evacuations remain in place as Lake Fire in California continues to rage - CBS News",
+      "description": "Some parts of the Angeles National Forest have not burned since the 1960s, leaving decades of brush ready to ignite.",
+      "url": "https://www.cbsnews.com/news/lake-fire-california-evacuations-lake-hughes/",
+      "urlToImage": "https://cbsnews1.cbsistatic.com/hub/i/r/2020/08/15/28ca0925-74e6-41e9-ad83-1d9bf2cf064d/thumbnail/1200x630/6013d1754baf0197b95a1f75bd0edded/ap-20226838383764.jpg",
+      "publishedAt": "2020-08-15T14:51:00Z",
+      "content": "Firefighters are continuing to contend with a wildfire in California that has destroyed homes and forced people to flee. The Lake Fire, burning near Lake Hughes north of Los Angeles, was 12% containe… [+2251 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "New York Post"
+      },
+      "author": "Mollie Walker",
+      "title": "Reds game postponed as player tests positive for coronavirus - New York Post ",
+      "description": "MLB was forced to postpone games Saturday and Sunday between the Reds and Pirates in Cincinnati after an unidentified Reds player tested positive for the coronavirus a day before, The Post’s …",
+      "url": "https://nypost.com/2020/08/15/reds-pirates-game-postponed-as-player-gets-coronavirus/",
+      "urlToImage": "https://nypost.com/wp-content/uploads/sites/2/2020/08/Reds-player-tests-positive-for-the-coronavirus..jpg?quality=90&strip=all&w=1200",
+      "publishedAt": "2020-08-15T14:47:00Z",
+      "content": "MLB was forced to postpone games Saturday and Sunday between the Reds and Pirates in Cincinnati after an unidentified Reds player tested positive for the coronavirus a day before, The Post’s Joel She… [+1246 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Yahoo Entertainment"
+      },
+      "author": "Leila Miller, Luke Money, Paul Duginski, Tony Barboza, Jack Dolan",
+      "title": "Severe heat wave causes rolling blackouts, dangerous conditions across California - Yahoo News",
+      "description": "The broiling conditions that began Friday in California may rival the deadly seven-day heat event of July 2006.",
+      "url": "https://news.yahoo.com/worst-heat-wave-years-causes-144343229.html",
+      "urlToImage": "https://s.yimg.com/uu/api/res/1.2/vd3OmL8BmP_AG.3zrW_ehg--~B/aD01NjA7dz04NDA7c209MTthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/la_times_articles_853/8eeab3689f1cb8a6079834fd3e715ecb",
+      "publishedAt": "2020-08-15T14:43:00Z",
+      "content": "A cool breeze propels windsurfers across the shimmering waters off Cabrillo Beach in San Pedro on Friday, Aug. 14, 2020. Southern California is in the grips of a heat wave, with temperatures in the 8… [+5669 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Forbes"
+      },
+      "author": "Bruce Y. Lee",
+      "title": "How Long Are You Immune After Covid-19 Coronavirus? Here Is What CDC Now Suggests - Forbes",
+      "description": "The Centers for Disease Control and Prevention (CDC) has some new guidance about whether you should get tested for SARS-CoV2 or quarantine after recovering from Covid-19.",
+      "url": "https://www.forbes.com/sites/brucelee/2020/08/15/how-long-are-you-immune-after-covid-19-coronavirus-here-is-what-cdc-now-suggests/",
+      "urlToImage": "https://thumbor.forbes.com/thumbor/fit-in/1200x0/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5f37eb0248f19f60b1ccc51c%2F0x0.jpg",
+      "publishedAt": "2020-08-15T14:34:00Z",
+      "content": "Should you get re-tested for the Covid-19 coronavirus after you have recovered from Covid-19? Well, ... [+] the CDC has some new guidance, sort of. (Photo by Robin Utrecht/SOPA Images/LightRocket via… [+9650 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "MarketWatch"
+      },
+      "author": "Mark DeCambre",
+      "title": "Stock market looks like 'Wile E. Coyote,' running off 'a cliff,' says expert - MarketWatch",
+      "description": "‘ Never before have I seen a market so highly valued in the face of overwhelming uncertainty,’ says GMO’s Montier",
+      "url": "https://www.marketwatch.com/story/stock-market-looks-like-hapless-wile-e-coyote-running-off-the-edge-of-a-cliff-says-behavioral-economist-11597501544",
+      "urlToImage": "https://images.mktw.net/im-221308?size=1.5980024968789013",
+      "publishedAt": "2020-08-15T14:25:00Z",
+      "content": "The S&amp;P 500 index is teetering on the edge of a rarefied perch, persistently brushing aside uncertainties created by the COVID-19 pandemic in its ascent. Although arguably the most important stoc… [+6411 chars]"
+    },
+    {
+      "source": {
+        "id": "fox-news",
+        "name": "Fox News"
+      },
+      "author": "Melissa Roberto",
+      "title": "Kanye West takes subtle jab at Taylor Swift in latest Twitter thread - Fox News",
+      "description": "Kanye West shaded Taylor Swift on Friday on Twitter.",
+      "url": "https://www.foxnews.com/entertainment/kanye-west-subtle-jab-taylor-swift-twitter",
+      "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2019/08/vmas-taylor-swift-kanye-west-2019.jpg",
+      "publishedAt": "2020-08-15T14:17:40Z",
+      "content": "Kanye West seemingly shaded Taylor Swift on Friday by bringing up quite a touchy subject in their years-long feud.\r\nThe 43-year-old rapper and 2020 presidential hopeful announced on Friday he was goi… [+2584 chars]"
+    },
+    {
+      "source": {
+        "id": "fox-news",
+        "name": "Fox News"
+      },
+      "author": "Victor Garcia",
+      "title": "Eric Trump calls on Biden to answer for 'very discriminatory' process of picking running mate - Fox News",
+      "description": "The Biden campaign's process that resulted in the selection of Sen. Kamala Harris, D-Calif., as their vice presidential pick is \"discriminatory,\" Trump organization vice president Eric Trump said on the latest \"Fox News Rundown podcast,\" calling the pick \"ins…",
+      "url": "https://www.foxnews.com/politics/eric-trump-biden-running-mate-discriminatory-process",
+      "urlToImage": "https://cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/c236ecab-258d-47c2-82ce-2d266417b65d/650bac8a-57b3-4a7e-8a6d-bf3f5d39032a/1280x720/match/image.jpg",
+      "publishedAt": "2020-08-15T14:06:34Z",
+      "content": "The Biden campaign's process that resulted in the selection of Sen. Kamala Harris, D-Calif., as the presumptive Democratic nominee's running mate was \"very discriminatory,\" Trump Organization vice pr… [+2528 chars]"
+    }
+  ]
+}

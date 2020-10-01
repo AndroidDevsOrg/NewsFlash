@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "346374230003",
+    "firebase_url": "https://newsflash-d9f16.firebaseio.com",
+    "project_id": "newsflash-d9f16",
+    "storage_bucket": "newsflash-d9f16.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:346374230003:android:7a60be2dafbcbab4784c86",
+        "android_client_info": {
+          "package_name": "com.androiddevs.newsflash"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "346374230003-43hiooahke19pg4oj04bgj28cst8hbv4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.androiddevs.newsflash",
+            "certificate_hash": "ee06eced07e8378ceeb12f98b6c0318cf7489cbc"
+          }
+        },
+        {
+          "client_id": "346374230003-34cu38csb8ni5gh7jtni7dl7gp2ebbus.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4XWpA-Ok3AOz5V4hMv1ipVF_c-Tm4pB0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "346374230003-34cu38csb8ni5gh7jtni7dl7gp2ebbus.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
